@@ -270,16 +270,30 @@ footer p {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 16px;
+}
+
+.social-icons {
+  margin-top: 20px;
 }
 
 .social-icons ul {
   display: flex;
+  gap: 16px;
+}
+
+.social-icons li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  background-color: #18191f;
+  border-radius: 50%;
 }
 
 .social-icons a {
   display: inline-block;
   padding: 10px;
-  font-size: 32px;
+  font-size: 22px;
   color: white;
 }
