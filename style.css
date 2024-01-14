@@ -61,9 +61,44 @@ nav h3 {
 /* Banner Section */
 .banner {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  width: 582px;
+  height: 270px;
+}
+
+.banner-content h1 {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 16px;
+}
+
+.banner-content p {
+  margin-bottom: 24px;
+}
+
+.banner-content button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 41px;
+  background: #e02c6d;
+  color: white;
+}
+
+.banner-content button i {
+  margin-left: 8px;
 }
 
 .banner-img {
+  width: 500px;
   background: url("images/Circle\ design.svg");
   background-position: center;
+  background-repeat: no-repeat;
 }
