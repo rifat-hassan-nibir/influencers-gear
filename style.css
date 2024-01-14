@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
+/* Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -34,6 +35,27 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 41px;
+  background: #e02c6d;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button i {
+  margin-left: 8px;
 }
 
 /* ---- Header Styles ---- */
@@ -88,22 +110,6 @@ nav h3 {
 
 .banner-content p {
   margin-bottom: 24px;
-}
-
-.banner-content button {
-  padding: 10px 24px;
-  border: none;
-  border-radius: 41px;
-  background: #e02c6d;
-  color: white;
-}
-
-.banner-content button:hover {
-  cursor: pointer;
-}
-
-.banner-content button i {
-  margin-left: 8px;
 }
 
 .banner-img {
@@ -200,4 +206,39 @@ nav h3 {
   display: block;
   text-align: right;
   color: rgba(224, 44, 109, 0.87);
+}
+
+/* ---- Featured Section ---- */
+
+.featured-product {
+  display: flex;
+  gap: 96px;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.featured-product-content {
+  width: 66.66%;
+}
+
+.featured-product-content h3 {
+  color: #0a0826;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 16px;
+}
+
+.featured-product-content p {
+  width: 500px;
+  margin-bottom: 16px;
+}
+
+.featured-button {
+  border-radius: 0;
 }
