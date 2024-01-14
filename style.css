@@ -46,6 +46,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 34px;
 }
 
@@ -63,6 +64,7 @@ nav h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .banner-content {
@@ -101,4 +103,18 @@ nav h3 {
   background: url("images/Circle\ design.svg");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Main Section */
+/* Brands Seciton */
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 60px;
+  padding: 40px 0;
+  width: 65%;
+  margin-bottom: 100px;
 }
